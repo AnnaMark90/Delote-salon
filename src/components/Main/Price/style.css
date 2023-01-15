@@ -1,0 +1,74 @@
+.price_title {
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 6%;
+    margin-bottom: 7%;
+}
+
+.price_blocks {
+    margin-left: 10%;
+    margin-right: 11%;
+}
+
+.price_block {
+    padding-bottom: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .price_block img {
+    min-width: 636px;
+    max-height: 536px;
+} */
+
+.price_content {
+    min-width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.price_list {
+    display: flex;
+    flex-direction: row;
+    align-items: initial;
+    justify-content: space-between;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #FFFFFF8C;
+    cursor: pointer;
+}
+
+.price_name {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.price_plus span, 
+.add_serv {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.price_num {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 130%;
+    text-align: right;
+    color: #FFFFFF;
+}

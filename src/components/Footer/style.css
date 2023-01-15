@@ -1,0 +1,54 @@
+.foot_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    /* align-items: center; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.foot_block {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot_title{
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.foot_text {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.block_logo {
+    padding-top: 5%;
+    height: 36px;
+    width: 36px;
+}
+
+.copy {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}

@@ -62,17 +62,6 @@ const Header = () => {
                             <li><NavLink onClick={handleChange} to={'/contacts'} className="normal">Контакты</NavLink></li>
                             <li><NavBar /></li>
                         </ul>
-                            {/* <ul>
-                                <li>
-                                    <NavInst className="nav_inst"/>
-                                </li>
-                                <li>
-                                    <NavLogo className="nav_logo"/>
-                                </li>
-                                <li>
-                                    <NavBar />
-                                </li>
-                            </ul>  */}
                     </nav>
                 </div>
             </header>
